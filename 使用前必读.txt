@@ -89,7 +89,7 @@ lnx-update-tools.sh - 检索最新的macOS VMware tools
 Sam还编写了用于修补ESXi ELF文件的代码，并修改了Unlocker 代码以在ESXi 6.5环境中的Python 3上运行。
 
 
-历史
+7. 历史
 -------
 27/09/18 3.0.0-首次发布
 18/02/10 3.0.1-修复了gettools.py与Python 3配合使用并正确下载darwinPre15.iso的问题
