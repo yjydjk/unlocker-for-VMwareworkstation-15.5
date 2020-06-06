@@ -73,32 +73,30 @@ win-update-tools.cmd - 检索最新的macOS VMware tools
 
 5. Linux
 ---------
-On Linux you will need to be either root or use sudo to run the scripts.
+在Linux上你需要以root用户或sudo命令运行脚本
 
-You may need to ensure the Linux scripts have execute permissions
-by running chmod +x against the 2 files.
+您可能需要通过对2个文件运行chmod + x来确保Linux脚本具有执行权限。
 
-lnx-install.sh   - patches VMware
-lnx-uninstall.sh - restores VMware
-lnx-update-tools.sh - retrieves latest macOS guest tools
+lnx-install.sh   - 破解 VMware
+lnx-uninstall.sh - 取消破解 VMware
+lnx-update-tools.sh - 检索最新的macOS VMware tools
    
-6. Thanks
+6. 鸣谢
 ---------
 
-Thanks to Zenith432 for originally building the C++ unlocker and Mac Son of Knife
-(MSoK) for all the testing and support.
+感谢Zenith432最初构建的C ++解锁程序以及Mac Knife（MSoK）的所有测试和支持。
 
-Thanks also to Sam B for finding the solution for ESXi 6 and helping me with
-debugging expertise. Sam also wrote the code for patching ESXi ELF files and
-modified the unlocker code to run on Python 3 in the ESXi 6.5 environment.
+也感谢Sam B为ESXi 6找到解决方案并帮助我获得调试专业知识。 
+Sam还编写了用于修补ESXi ELF文件的代码，并修改了Unlocker 代码以在ESXi 6.5环境中的Python 3上运行。
 
 
-History
+历史
 -------
-27/09/18 3.0.0 - First release
-02/10/18 3.0.1 - Fixed gettools.py to work with Python 3 and correctly download darwinPre15.iso
-10/10/18 3.0.2 - Fixed false positives from anti-virus software with Windows executables
-               - Allow Python 2 and 3 to run the Python code from Bash scripts
+27/09/18 3.0.0-首次发布
+18/02/10 3.0.1-修复了gettools.py与Python 3配合使用并正确下载darwinPre15.iso的问题
+18/10/10 3.0.2-修复了带有Windows可执行文件的防病毒软件引起的误报
+              -允许Python 2和3从Bash脚本运行Python代码
 
 
 (c) 2011-2018 Dave Parsons
+翻译：@GitHub yjydjk
