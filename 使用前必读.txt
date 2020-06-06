@@ -99,4 +99,4 @@ Sam还编写了用于修补ESXi ELF文件的代码，并修改了Unlocker 代码
 
 
 (c) 2011-2018 Dave Parsons
-翻译：@GitHub yjydjk
+翻译：@GitHub yjydjk https://github.com/yjydjk
