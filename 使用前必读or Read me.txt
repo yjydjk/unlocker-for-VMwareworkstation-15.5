@@ -100,7 +100,9 @@ Sam还编写了用于修补ESXi ELF文件的代码，并修改了Unlocker 代码
 (c) 2011-2018 Dave Parsons
 翻译：@GitHub yjydjk https://github.com/yjydjk
 
-注意：此文大多是机器翻译，再由我手动改正，若有任何疑惑或发现任何语法错误，请参考下面的英文版：
+注意：此文大多使用谷歌翻译，再由我手动改正，若有任何疑惑或发现任何语法错误，请参考下面的英文版：
+Note: Most of this text is translated by the Google Translate, and then I will correct it manually. If you have any doubts or find any grammatical errors, please refer to the English version below:
+
 macOS Unlocker for VMware V2.1
 ==============================
 
